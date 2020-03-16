@@ -1,0 +1,47 @@
+{
+    "name": "personal_blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start-dev": "nodemon --config \"./util/nodemon.json\"/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/amshonekan/blogash001.git"
+    },
+    "author": "A. Shonekan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/amshonekan/blogash001/issues"
+    },
+    "homepage": "https://github.com/amshonekan/blogash001#readme",
+    "devDependencies": {
+        "@types/chai": "^4.2.11",
+        "@types/core-js": "^2.5.3",
+        "@types/express": "^4.17.3",
+        "@types/mocha": "^7.0.2",
+        "@types/node": "^13.9.1",
+        "@types/nodemon": "^1.19.0",
+        "@types/react": "^16.9.23",
+        "@types/react-native": "^0.61.22",
+        "@types/typescript": "^2.0.0",
+        "chai": "^4.2.0",
+        "express-generator-typescript": "^1.6.1",
+        "http-status-codes": "^1.4.0",
+        "jslint": "^0.12.1",
+        "mocha": "^7.1.0",
+        "nodemon": "^2.0.2",
+        "supertest": "^4.0.2",
+        "ts-node": "^8.6.2",
+        "tslint": "^6.1.0",
+        "typescript": "^3.8.3",
+        "typings": "^2.1.1"
+    },
+    "dependencies": {
+        "@overnightjs/core": "^1.6.15",
+        "@overnightjs/logger": "^1.1.10",
+        "node": "^13.10.1"
+    }
+}
